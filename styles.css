@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:  hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.flexbox-item{
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 500px;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.img1{
+    width: 300px;
+    height: 250px;
+    margin-left: 25px;
+    margin-top: 15px;
+    border-radius: 12px;
+    background: url(icon-view.svg)center center no-repeat;
+    background-color:  hsl(215, 51%, 70%) ;
+}
+h2{
+    color:  hsl(0, 0%, 100%);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+h2:hover{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.p1{
+    color:  hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin-left: 25px;
+    margin-top: 15px; 
+    font-weight: 300;   
+}
+.eth{
+    color:  hsl(178, 100%, 50%);
+    margin-left: 25px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.days{
+    margin-right: 25px;
+    color:  hsl(215, 51%, 70%);
+}
+hr{
+    width: 300px;
+    background-color:  hsl(215, 32%, 27%);
+    margin-left: 25px;
+    margin-top: 15px;
+    height: 1px;
+    border: none;
+}
+.img2{
+    width: 30px;
+    margin-top: 10px;
+}
+.personal{
+    margin-left: 25px;
+    display: flex;
+    color: white ;
+    margin-top: 10px;
+}
+h4{
+    margin-top: 18px;
+    margin-left: 7px; 
+    font-size: 17px;
+}
+h4:hover{
+    color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.p2{
+    margin-left: 7px;
+    margin-top: 18px;
+    color:  hsl(215, 51%, 70%) ;
+
+}
